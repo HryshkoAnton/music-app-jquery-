@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg.jpg) no-repeat center top / cover;
+	font-family: sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header {
+	background-color: rgb(58, 59, 71);
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.navigation_list {
+	display: flex;
+	list-style: none;
+	float: right;
+}
+
+.navigation_list li {
+	margin-right: 30px;
+}
+
+.navigation_list a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+.border {
+	border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+-webkit-border-radius: 8px 8px 8px 8px;
+border: 2px outset #40b890;
+}
+
+.logo {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+	margin: 10px 0 0 10px;
+}
+
+.music__card__section {
+	display: block;
+	width: 310px;
+	height: 510px;
+	text-align: center;
+	margin-bottom: 40px;
+	color: aliceblue;
+	background-color: rgb(58, 59, 71);
+	margin-right: 50px;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.add_shadow {
+	-webkit-box-shadow: -1px 0px 18px 6px rgba(25,194,146,1);
+	-moz-box-shadow: -1px 0px 18px 6px rgba(25,194,146,1);
+	box-shadow: -1px 0px 18px 6px rgba(25,194,146,1);
+	width: 310px;
+	height: 520px;
+	transition: 0.4s;
+}
+
+button {
+	background-color: rgba(25,194,146,1);
+	border: none;
+	padding: 9px;
+	font-weight: bold;
+	margin-left: 110px;
+}
+
+.button_mouseEnter {
+	color: rgba(25,194,146,1);
+	background-color: #0e0d0d;
+}
+
+.My_Playlist_section {
+	padding-top: 60px;
+	
+	display: flex;
+	justify-content: start;
+	
+	
+}
+
+.currentColor {
+	color: rgba(25,194,146,1);
+}
+
+.photo-active {
+    background-size: 310px;
+		transition: 0.2s; 
+		
+	}
