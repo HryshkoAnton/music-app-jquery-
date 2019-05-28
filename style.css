@@ -86,6 +86,10 @@ button {
 	margin-left: 110px;
 }
 
+.hidden {
+	display: none !important;
+}
+
 .button_mouseEnter {
 	color: rgba(25,194,146,1);
 	background-color: #0e0d0d;
